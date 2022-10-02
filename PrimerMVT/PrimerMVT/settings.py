@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "AppMVT",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = "PrimerMVT.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ["/Users/Usuario/DocumentsPython/MVT-GonzaloRiveros/PrimerMVT/AppMVT/Templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
