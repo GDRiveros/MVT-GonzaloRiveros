@@ -14,22 +14,26 @@ def ver_familiares(request):
         nombre="Luciana",
         apellido="Slutzker",
         numero_de_telefono= 1182967848,
-        fecha_de_nacimiento="05/12/1979"
+        fecha_de_nacimiento="1979-12-05"
     )
 
     familiar2 = Familiares(
         nombre="Leonardo",
         apellido="Riveros",
         numero_de_telefono= 1155356478,
-        fecha_de_nacimiento="08/05/1978"
+        fecha_de_nacimiento="1978-05-08"
     )
 
     familiar3 = Familiares(
         nombre="Vilma",
         apellido="Galafassi",
         numero_de_telefono= 47986514,
-        fecha_de_nacimiento="17/08/1945"
+        fecha_de_nacimiento="1945-08-17"
     )
+
+    familiar1.save() #Guardando los familiares en la base de datos
+    familiar2.save()
+    familiar3.save()
 
     dict_de_context = {
         "familiar1": familiar1,
