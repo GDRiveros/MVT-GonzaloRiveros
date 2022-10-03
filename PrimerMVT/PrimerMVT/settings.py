@@ -55,7 +55,7 @@ ROOT_URLCONF = "PrimerMVT.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ["/Users/Usuario/DocumentsPython/MVT-GonzaloRiveros/PrimerMVT/AppMVT/Templates"],
+        "DIRS": [f"{BASE_DIR}/MVT-GonzaloRiveros/PrimerMVT/AppMVT/Templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
