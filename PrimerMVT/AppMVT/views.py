@@ -17,24 +17,24 @@ def ver_familiares(request):
 
 
     familiar1 = Familiares(
-        nombre="Luciana",
-        apellido="Slutzker",
+        nombre="Laura",
+        apellido="Carmela",
         numero_de_telefono= 1182967848,
-        fecha_de_nacimiento= "1979-12-05"               #nacimiento_familiar1.strftime("%Y - %m - %d")
+        fecha_de_nacimiento= "1960-11-04"               #nacimiento_familiar1.strftime("%Y - %m - %d")
     )
 
     familiar2 = Familiares(
-        nombre="Leonardo",
-        apellido="Riveros",
+        nombre="Leonidas",
+        apellido="Risomero",
         numero_de_telefono= 1155356478,
-        fecha_de_nacimiento= "1978-05-08"                #nacimiento_familiar2.strftime("%Y - %m - %d")
+        fecha_de_nacimiento= "1954-01-08"                #nacimiento_familiar2.strftime("%Y - %m - %d")
     )
 
     familiar3 = Familiares(
-        nombre="Vilma",
-        apellido="Galafassi",
+        nombre="Viruela",
+        apellido="Torruela",
         numero_de_telefono= 47986514,
-        fecha_de_nacimiento= "1945-08-17"                 #nacimiento_familiar3.strftime("%Y - %m - %d")
+        fecha_de_nacimiento= "1884-10-05"                 #nacimiento_familiar3.strftime("%Y - %m - %d")
     )
 
     familiar1.save() #Guardando los familiares en la base de datos
